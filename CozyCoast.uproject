@@ -3,6 +3,16 @@
 	"EngineAssociation": "{7234E809-4DC2-ABF9-DF19-40A58E30EEF0}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "CozyCoast",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
